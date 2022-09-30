@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devs & Foods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>DEVS & FOODS</h1>
+    </header>
+    <section class="encabezados">
+        <div class="contenedor">
+            <li>
+                <h3>Rubro</h3>
+                <h3>Producto</h3>
+                <h3>Precio</h3>
+                <h3>Cantidad</h3>
+                <h3>Total</h3>
+            </li>
+        </div>
+    </section>
+    <section class="productos">
+        <div class="contenedor">
+            <li>
+                <input readonly class="rubro" tabindex="-1" value="Carnes">
+                <input readonly class="producto" tabindex="-1" value="Chorizo">
+                <input readonly class="precio" tabindex="-1" value="490.00">
+                <input class="cantidad" value="">
+                <input readonly class="total" tabindex="-1" value="0.00">
+            </li>
+        </div>
+    </section>
+
+    <section class="totales">
+        <div class="contenedor">
+            <p> subtotal: </p>
+            <input readonly tabindex="-1" id="subtot"><br>
+            <p>descuentos:</p>
+            <input readonly tabindex="-1" id="desc"><br>
+            <p> total:</p>
+            <input readonly tabindex="-1" id="tot"><br>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
